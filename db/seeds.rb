@@ -19,10 +19,10 @@ r4 = Result.create(win: true, loss: false, game: 1, user_id: 4)
 
 puts "seeding users"
 
-u1 = User.create(username: "Jason", password: "passwerd")
-u2 = User.create(username: "Ruby", password: "onRails12")
-u3 = User.create(username: "Java", password: "warrior")
-u4 = User.create(username: "Sinatra", password: "ytrfhjknbvcgyu8584")
+u1 = User.create(username: "Jason", password_digest: "passwerd")
+u2 = User.create(username: "Ruby", password_digest: "onRails12")
+u3 = User.create(username: "Java", password_digest: "warrior")
+u4 = User.create(username: "Sinatra", password_digest: "ytrfhjknbvcgyu8584")
 
 puts "seeding words"
 
